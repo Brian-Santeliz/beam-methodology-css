@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6fe;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+}
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.card__thumbnail {
+    width: 650px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    /* restructura el layout */
+    overflow: hidden;
+}
+
+.card__img {
+    width: 100%;
+    background-repeat: repeat-y;
+}
+.card__titulo{
+    font-family: 'Relaway', sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.card__enlace{
+    color: #000;
+}
+
+.card__parrafo{
+    line-height: 28px;
+    color: #6d6d6d;
+    margin-bottom: 20px;
+}
+
+.btn{
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    color: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+    display:inline-flex;  /* en linea centrado*/
+    justify-content: space-between;
+    align-items: center;
+    background: #403cc2;
+    transition: .3s ease all;
+
+}
+
+.btn:hover{
+    background: #2222ac;
+    text-decoration: none;
+}
+.btn__texto{
+  font-weight: 600;
+}
+.btn--absolute{
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+}
+
+.btn--verde{
+  background: #7ba771
+}
+.btn--verde:hover{
+  background: #437837;
+}
+
+.frase{
+  text-align: center;
+  margin: 70px 0 !important;
+}
+
+.frase__titulo{
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.contenedor__cards{
+  margin: 70px 0;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologia BEM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- BEAM se compone de 3 cosas. Bloques(componentes), ELementos, Modificadores  -->
+
+    <div class="contenedor">
+        <div class="contenedor__cards"> <!-- bloque que encierra a las cards -->
+            <div class="card"> <!-- bloque -->
+                <a href="#" class="card__thumbnail">
+                    <img src="img/1.jpg" alt="" class="card__img">
+                </a>
+                <div class="card__textos">
+                    <h3 class="card__titulo">
+                    <a href="#" class="card__enlace">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p class="card__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloribus numquam explicabo alias earum ex quasi quam possimus. Voluptates asperiores sit tenetur impedit est. Natus aut laboriosam sit. Odio nihil hic ullam dolorem libero vitae!</p>
+    
+                    <!-- agreggo los estilos basicos y luego el modificador -->
+                    <a  class="btn btn--absolute"> <!--Nuevo compnet-->
+                        <span class="btn__texto">Ver más</span>
+                        <i class=" btn__icono fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="card"> <!-- bloque -->
+                <a href="#" class="card__thumbnail">
+                    <img src="img/1.jpg" alt="" class="card__img">
+                </a>
+                <div class="card__textos">
+                    <h3 class="card__titulo">
+                    <a href="#" class="card__enlace">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p class="card__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloribus numquam explicabo alias earum ex quasi quam possimus. Voluptates asperiores sit tenetur impedit est. Natus aut laboriosam sit. Odio nihil hic ullam dolorem libero vitae!</p>
+    
+                    <!-- agreggo los estilos basicos y luego el modificador -->
+                    <a  class="btn btn--absolute"> <!--Nuevo compnet-->
+                        <span class="btn__texto">Ver más</span>
+                        <i class=" btn__icono fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div><div class="card"> <!-- bloque -->
+                <a href="#" class="card__thumbnail">
+                    <img src="img/1.jpg" alt="" class="card__img">
+                </a>
+                <div class="card__textos">
+                    <h3 class="card__titulo">
+                    <a href="#" class="card__enlace">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p class="card__parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus doloribus numquam explicabo alias earum ex quasi quam possimus. Voluptates asperiores sit tenetur impedit est. Natus aut laboriosam sit. Odio nihil hic ullam dolorem libero vitae!</p>
+    
+                    <!-- agreggo los estilos basicos y luego el modificador -->
+                    <a  class="btn btn--absolute"> <!--Nuevo compnet-->
+                        <span class="btn__texto">Ver más</span>
+                        <i class=" btn__icono fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="frase"> <!-- bloque -->
+        <h2 class="frase__titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, maiores!</h2>
+        <a href="#" role="button" class="btn btn--verde"><i class="fas fa-shopping-cart"></i><span class="brn__texto">Buy</span>
+        </a>
+    </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
